@@ -1,0 +1,16 @@
+Variante NORM:
+
+N			real time(usr+sys)		Note
+1225			0m0.044s(0.013s+0.005s)		trattasi di un valore notevole tale da far sì che i primi trovati siano esattamente duecento (e siano quindi inviabili con una singola trasmissione)
+1000000			0m10.98s(0.83s+1.29s)		con questo input il programma trova 78498 numeri primi (quindi il file di destinazione ha 78499 righe)
+15485864		2m53.2s(14.85s+18.9s)		trattasi di un valore notevole tale da far sì che i primi trovati siano esattamente un milione
+50000000		9m10.64s(53.08s+1m1.83s)	con questo input il programma trova 3001134 numeri primi (quindi il file di destinazione ha 3001135 righe)
+
+Variante FAST:
+
+N			real time(usr+sys)		Note
+1225			0m0.015s(0.011s+0.002s)		trattasi di un valore notevole tale da far sì che i primi trovati siano esattamente duecento (e siano quindi inviabili con una singola trasmissione)
+1000000			0m0.24s(0.11s+0.09s)		con questo input il programma trova 78498 numeri primi (quindi il file di destinazione ha 78499 righe)
+15485864		0m5.06s(3.10s+1.09s)		trattasi di un valore notevole tale da far sì che i primi trovati siano esattamente un milione
+50000000		0m23.19s(14.82s+3.19s)		con questo input il programma trova 3001134 numeri primi (quindi il file di destinazione ha 3001135 righe)
+1000000000		19m28.05s(15m47.5s+54.15s)	con questo input il programma trova 50847534 numeri primi (quindi il file di destinazione ha 50847535 righe)	

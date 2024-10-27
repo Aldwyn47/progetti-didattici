@@ -1,0 +1,8 @@
+calc : Calcolatori.c
+	gcc -pthread -o calc Calcolatori.c
+
+memo : Memorizzatore.c
+	gcc -o memo Memorizzatore.c
+    
+calcFast : CalcolatoriFast.c
+	gcc -pthread -o calcFast CalcolatoriFast.c
